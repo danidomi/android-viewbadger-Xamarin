@@ -1,7 +1,7 @@
-Android ViewBadger
+Android ViewBadger Xamarin C#
 ==================
 
-A simple way to "badge" any given Android view at runtime without having to cater for it in layout.
+A simple way to add a badge value to a Android view.
 
 ![Demos](http://www.jeffgilfelt.com/viewbadger/vb-1a.png "Demos")&nbsp;
 ![ListAdapter](http://www.jeffgilfelt.com/viewbadger/vb-2a.png "ListAdapter")
@@ -18,9 +18,8 @@ Simple example:
     badge.SetText("1");
     badge.Show();
 
-This project contains a fully working example application. Refer to the `DemoActivity` class for more custom badge examples, including custom backgrounds and animations. `BadgeView` is a subclass of `TextView` so you can use all of `TextView`'s methods to style the appearance of your badge.
 
-To use ViewBadger in your own Android project, simply copy `android-viewbadger.jar` (available from this repository's package downloads) into your project's `/libs` directory and add it to the build path.
+To use ViewBadger in your own Android project, simply build this project and add the reference to your project.
 
 Current Limitations
 -------------------
@@ -33,7 +32,7 @@ Credits
 
 Author:  Daniel Domingues
 
-Based on [this](https://github.com/jgilfelt/android-viewbadger)
+Based on [this](https://github.com/jgilfelt/android-viewbadger).
 
 The code in this project is licensed under the Apache Software License 2.0.
 <br />
