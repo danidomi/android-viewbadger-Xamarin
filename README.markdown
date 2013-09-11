@@ -33,6 +33,8 @@ Credits
 
 Author:  Daniel Domingues
 
+Based on [this](https://github.com/jgilfelt/android-viewbadger)
+
 The code in this project is licensed under the Apache Software License 2.0.
 <br />
 Copyright (c) 2011 readyState Software Ltd.
