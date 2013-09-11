@@ -13,7 +13,7 @@ Usage
 
 Simple example:
 
-    View target = FindViewById(R.id.target_view);
+    View target = FindViewById(Resource.id.target_view);
     BadgeView badge = new BadgeView(this, target);
     badge.SetText("1");
     badge.Show();
@@ -31,7 +31,7 @@ Current Limitations
 Credits
 -------
 
-Author: Jeff Gilfelt & Daniel Domingues
+Author:  Daniel Domingues
 
 The code in this project is licensed under the Apache Software License 2.0.
 <br />
